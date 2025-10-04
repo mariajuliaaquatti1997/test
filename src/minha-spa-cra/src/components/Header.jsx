@@ -5,6 +5,7 @@ function Header() {
     <nav style={{ padding: '1rem', backgroundColor: '#334155', marginBottom: '1rem' }}>
       <Link to="/" style={{ color: 'white', marginRight: '1rem' }}>Home</Link>
       <Link to="/about" style={{ color: 'white' }}>Sobre</Link>
+      <Link to="/contato" style={{color: 'white'}}>Contato</Link>
     </nav>
   );
 }
